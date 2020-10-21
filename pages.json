@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login"
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},{
+			"path": "pages/device-map/device-map",
+			"style": {
+				"navigationBarTitleText": "设备地图"
+			}
+		},
+		{
+			"path": "pages/system-setting/system-setting",
+			"style": {
+				"navigationBarTitleText": "系统设置",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/team/team",
+			"style": {
+				"navigationBarTitleText": "团队管理",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/team/add-team",
+			"style": {
+				"navigationBarTitleText": "添加团队",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/satellite-positioning/satellite-positioning",
+			"style": {
+				"navigationBarTitleText": "卫星定位",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/motion-track/motion-track",
+			"style": {
+				"navigationBarTitleText": "运动轨迹",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "主页",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle": "dark"
+	},
+	"tabBar": {
+		"color":"#f37d5b",
+		"selectedColor": "#f78e70",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/index-icon.png",
+				"selectedIconPath":"static/images/index-icon.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/device-map/device-map",
+				"iconPath":"static/images/device-icon.png",
+				"selectedIconPath":"static/images/device-icon.png",
+				"text":"设备地图"
+			}
+		]
+	}
+}

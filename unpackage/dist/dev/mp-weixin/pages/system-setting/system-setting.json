@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "系统设置",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "evan-switch": "/components/evan-switch/evan-switch",
+    "range-slider": "/components/range-slider/range-slider"
+  }
+}

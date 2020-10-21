@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/device-map/device-map",
+    "pages/system-setting/system-setting",
+    "pages/team/team",
+    "pages/team/add-team",
+    "pages/satellite-positioning/satellite-positioning",
+    "pages/motion-track/motion-track"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "主页",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#f37d5b",
+    "selectedColor": "#f78e70",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/index-icon.png",
+        "selectedIconPath": "static/images/index-icon.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/device-map/device-map",
+        "iconPath": "static/images/device-icon.png",
+        "selectedIconPath": "static/images/device-icon.png",
+        "text": "设备地图"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}
